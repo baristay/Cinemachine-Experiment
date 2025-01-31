@@ -457,7 +457,6 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
-  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -603,30 +602,6 @@ MonoBehaviour:
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: c2a0b049-d4c9-4581-857a-5762d5a5a1a2
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
---- !u!114 &330585549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9275684facebda847ab25c55ca5a1ba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasasiyetX: 10
-  hasasiyetY: 10
-  sinir: 80
-  bakaksiyon:
-    m_Name: Bakaksiyon
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 193f0b1a-b588-4011-8162-3d58c3e946c8
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
