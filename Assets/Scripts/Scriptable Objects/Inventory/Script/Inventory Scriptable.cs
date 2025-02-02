@@ -16,6 +16,17 @@ public class InventoryScriptable : ScriptableObject
         
         Items.Add(new InventorySlot(_item, _amount));
     }
+    public bool HasItem(string itemname)
+    {
+        foreach (InventorySlot slot in Items)
+        {
+            if (slot.item.itemName == itemname)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
 [System.Serializable]
 public class InventorySlot
